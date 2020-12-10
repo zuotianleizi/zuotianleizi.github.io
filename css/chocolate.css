@@ -113,3 +113,35 @@
   background-color: #49b1f5;
 }
 
+
+/* 页脚footer */
+/* 渐变色滚动动画 */
+
+#footer {
+    background: rgba(0, 0, 0, 0);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#footer:before {
+    background-color: rgba(0, 0, 0, 0);
+}
+#footer-wrap{
+  color: black;
+}
+#footer-wrap a{
+  color: black;
+}
+
+#page-header{
+  background-image: url(/img/36B685D49BBAD1A5D8AFC95F0E8AE8B2.jpg);
+}
+
