@@ -140,7 +140,7 @@
 }
 
 #page-header{
-  background-image: url(/img/bangumis.jpg);
+  background-image: url(https://gitee.com/zuotianleizi/ruiko-img/raw/master/img/bangumis.jpg);
 }
 
 @font-face {
@@ -206,4 +206,25 @@
   padding: 0px;
 }
 
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+  .card-widget.card-info{
+      display: none;
+      font-size: 13px;
+ }
+  .card-widget.card-announcement{
+    display: none;
+    font-size: 13px;
+ } 
+  .card-widget.card-recent-post{
+  display: none;
+  font-size: 13px;
+ }
+  .card-widget.card-tags{
+  display: none;
+  font-size: 13px;
+ }
+
+}
 
