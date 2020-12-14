@@ -70,12 +70,12 @@
 }
 
   .layout>#post {
-    background: rgba(255,255,255,0);
+    background: rgba(255,255,255,0.6);
 }
 
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.3);
+    /* 以下代表白色透明度为0.7 */
+    background: rgba(255,255,255,.7);
 }
 
 /* 滚动条 */
@@ -90,7 +90,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #49b1f5;
+  background-color:  #e58a8a;;
   background-image: -webkit-linear-gradient(
     45deg,
     rgba(255, 255, 255, 0.4) 25%,
@@ -110,7 +110,7 @@
 
 ::-moz-selection {
   color: #fff;
-  background-color: #49b1f5;
+  background-color: #e58a8a;
 }
 
 
@@ -131,17 +131,79 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-#footer:before {
-    background-color: rgba(0, 0, 0, 0);
-}
+
 #footer-wrap{
-  color: black;
+  color: red;
 }
 #footer-wrap a{
-  color: black;
+  color: #00c4b6;
 }
 
 #page-header{
-  background-image: url(/img/36B685D49BBAD1A5D8AFC95F0E8AE8B2.jpg);
+  background-image: url(/img/bangumis.jpg);
 }
+
+@font-face {
+  font-family: 'sleek';
+  src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
+
+.author-info__name {
+  color: #ff7242;
+}
+
+
+
+/* 评论框  */
+
+.vwrap {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 30px 0px;
+}
+
+
+/* 提交按钮 */
+
+#vcomment button {
+  padding: 0.3rem 0.8rem;
+  border-color: #fff;
+  background-color: #e58a8a;
+  color: #fff;
+  font-size: 0.7rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+/* 评论区代码块 */
+
+.v[data-class=v] code {
+  color: #c7254e;
+  background-color: #F9F2F4;
+}
+/* 设置评论框 */
+
+.vcard {
+  box-shadow: 2px 2px 5px #bbb;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 30px;
+  margin: 30px 0px 0px 0px;
+}
+
+
+/* 取消回复聊天框 */
+
+.vquote .vcard {
+  box-shadow: 2px 2px 5px transparent;
+  background: rgba(255, 255, 255, 0.0);
+  padding: 0px;
+}
+
 
