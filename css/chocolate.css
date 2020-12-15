@@ -143,10 +143,6 @@
   background-image: url(https://leileizi.oss-cn-chengdu.aliyuncs.com/img/20201206172322.jpg);
 }
 
-@font-face {
-  font-family: 'sleek';
-  src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
-}
 
 .author-info__name {
   color: #ff7242;
@@ -227,4 +223,6 @@
  }
 
 }
+
+
 
